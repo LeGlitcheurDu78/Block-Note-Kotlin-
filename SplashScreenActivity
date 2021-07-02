@@ -1,0 +1,9 @@
+package fr.leglitcheurdu78.blocknote
+
+class SplahScreenActivity : AppCompatActivity(){
+
+    override fun onClick(saveInstance: Bundle){
+        super.onClick(saveInstance)
+        setContentView(R.layout.activity_splash_screen) 
+    } 
+} 
